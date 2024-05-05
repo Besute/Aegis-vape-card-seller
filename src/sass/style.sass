@@ -28,6 +28,8 @@ body
     justify-items: center
     transition: all .2s
     grid-column: 1 / 2
+    &__realCard
+        grid-column: 2 / 3
     &__number
         color: rgba(white, 0.4)
         font-size: 10rem
@@ -94,13 +96,3 @@ body
         cursor: pointer
         &_1
             grid-column: 2 / 3
-
-.anim 
-    transform: rotate(-20deg, 20deg) scale(1.1) translateY(-.5rem)
-    transition: all .15s
-    transform-style: preserve-3d
-.anim2
-    perspective: 100rem
-    transform: rotateX(0) rotateY(0) scale(1) translateX(0)
-    filter: none
-    transition: all .15s

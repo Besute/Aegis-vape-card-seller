@@ -30,6 +30,9 @@ body {
   transition: all 0.2s;
   grid-column: 1/2;
 }
+.cardholder__realCard {
+  grid-column: 2/3;
+}
 .cardholder__number {
   color: rgba(255, 255, 255, 0.4);
   font-size: 10rem;
@@ -104,17 +107,4 @@ body {
 }
 .cardholder__card_1 {
   grid-column: 2/3;
-}
-
-.anim {
-  transform: rotate(-20deg, 20deg) scale(1.1) translateY(-0.5rem);
-  transition: all 0.15s;
-  transform-style: preserve-3d;
-}
-
-.anim2 {
-  perspective: 100rem;
-  transform: rotateX(0) rotateY(0) scale(1) translateX(0);
-  filter: none;
-  transition: all 0.15s;
 }/*# sourceMappingURL=style.css.map */
