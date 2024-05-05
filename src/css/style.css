@@ -39,8 +39,8 @@ body {
   font-size: 10rem;
   font-family: Marske;
   position: absolute;
-  left: 15%;
-  bottom: 5%;
+  left: 10%;
+  bottom: 3%;
   z-index: 1000;
   cursor: pointer;
 }
