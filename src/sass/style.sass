@@ -29,14 +29,15 @@ body
     transition: all .2s
     grid-column: 1 / 2
     &__realCard
+        position: relative
         grid-column: 2 / 3
     &__number
         color: rgba(white, 0.4)
         font-size: 10rem
         font-family: Marske
         position: absolute
-        left: 40%
-        top: 68%
+        left: 15%
+        bottom: 5%
         z-index: 1000
         cursor: pointer
     &__cost
@@ -46,8 +47,8 @@ body
         border-bottom-left-radius: 10rem
         background: #AD0101
         position: absolute
-        bottom: 18%
-        right: 37.76%
+        bottom: 10%
+        right: 0
         display: flex
         justify-content: center
         align-items: center
@@ -69,8 +70,8 @@ body
         position: absolute
         z-index: 103
         height: 33rem
-        top: 15%
-        right: 33%
+        top: 5%
+        right: -15%
         transition: scale .15s
         cursor: pointer
     &__text
