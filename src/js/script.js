@@ -13,12 +13,12 @@ class Hover {
             this.num.style.opacity = this.price.style.opacity = '1'
             this.card.childNodes[1].opacity = '0.4'
             this.price.style.color = this.num.style.color = 'white'
-            this.cost.style.transform = `perspective(1000px) rotateX(${(e.clientY-(window.innerHeight*0.5))/10}deg)rotateY(${(-e.clientX+(window.innerWidth*0.5))/11}deg) scale(1.1) translate(-15px, -5px)`
+            this.cost.style.transform = `perspective(1000px) rotateX(${(e.clientY-(window.innerHeight*0.5)) * 0.02}deg)rotateY(${(-e.clientX+(window.innerWidth*0.5)) * 0.02}deg) scale(1.1) translate(-15px, -5px)`
             this.img.style.filter = `drop-shadow(20px 15px 4px rgba(0, 0, 0, 0.25))`
             this.cost.style.filter = this.num.style.filter =  `drop-shadow(5px 13px 4px rgba(0, 0, 0, 0.25))`
-            this.card.style.transform = `perspective(1000px) rotateX(${(e.clientY-(window.innerHeight*0.5))/10}deg)rotateY(${(-e.clientX+(window.innerWidth*0.5))/11}deg)`
-            this.img.style.transform = `perspective(1000px) rotateX(${(e.clientY-(window.innerHeight*0.5))/10}deg)rotateY(${(-e.clientX+(window.innerWidth*0.5))/11}deg) scale(1.15) translate(-30px, -20px)`
-            this.num.style.transform = `perspective(1000px) rotateX(${(e.clientY-(window.innerHeight*0.5))/10}deg)rotateY(${(-e.clientX+(window.innerWidth*0.5))/11}deg) scale(1.15)`
+            this.card.style.transform = `perspective(1000px) rotateX(${(e.clientY-(window.innerHeight*0.5)) * 0.02}deg)rotateY(${(-e.clientX+(window.innerWidth*0.5)) * 0.02}deg)`
+            this.img.style.transform = `perspective(1000px) rotateX(${(e.clientY-(window.innerHeight*0.5)) * 0.02}deg)rotateY(${(-e.clientX+(window.innerWidth*0.5)) * 0.02}deg) scale(1.15) translate(-30px, -20px)`
+            this.num.style.transform = `perspective(1000px) rotateX(${(e.clientY-(window.innerHeight*0.5)) * 0.02}deg)rotateY(${(-e.clientX+(window.innerWidth*0.5)) * 0.02}deg) scale(1.15)`
         })
     }
     unhover() {
