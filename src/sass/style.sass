@@ -13,7 +13,6 @@ $color-black: rgba(black, 0.25)
 
 body 
     background: #202122
-
 .cardholder
     position: absolute
     top: 50%
@@ -29,8 +28,15 @@ body
     transition: all .2s
     grid-column: 1 / 2
     &__realCard
-        position: relative
-        grid-column: 2 / 3
+        &_1
+            position: relative
+            grid-column: 1 / 2
+        &_2
+            position: relative
+            grid-column: 2 / 3
+        &_3
+            position: relative
+            grid-column: 3 / 4
     &__number
         color: rgba(white, 0.4)
         font-size: 10rem
@@ -95,5 +101,3 @@ body
         border-radius: 10px
         overflow: hidden
         cursor: pointer
-        &_1
-            grid-column: 2 / 3
